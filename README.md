@@ -1,6 +1,6 @@
 # Anbeeld's WRITING.md — AI Writing Rules
 
-A prose ruleset that makes LLM-assisted text sharper, not as generic, and less like default model output. It targets the patterns that make generated prose feel recognizable without breaking grammar, faking typos, or gutting useful structure. The result reads better than unguided output and avoids the most common tells.
+A prose ruleset that makes AI-assisted text sharper, not as generic, and less like default model output. It targets the patterns that make generated prose feel recognizable without breaking grammar, faking typos, or gutting useful structure. The result reads better than unguided output and avoids the most common tells.
 
 The rules combine writing standards, web readability research, documentation guidance, detector-limit research, and direct observation of what LLMs produce when left to defaults.
 
@@ -21,11 +21,11 @@ The rules combine writing standards, web readability research, documentation gui
 
 ## How to use it
 
-Give [the ruleset](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md) to an LLM and tell it to follow every rule strictly. The explicit instructions compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, and overly neat conclusions.
+Give [the ruleset](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, and overly neat conclusions.
 
 One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. More rewrites after that usually circulate around the same model-level limitations rather than improving the text further.
 
-This is meant for legitimate uses, like iterating on a human draft or turning loosely organized thinking into something you would actually publish. The output avoids the most common AI tells and will read better than unguided model text, but it will not pass an experienced eye test or an advanced detector. Prompt-level instructions have a ceiling and can't overcome model-level defaults.
+This is meant for legitimate uses, like iterating on a human draft or turning loosely organized thinking into something you would actually publish. The output avoids the most common LLM tells and will read better than unguided model text, but it will not pass an experienced eye test or an advanced detector. Prompt-level instructions have a ceiling and can't overcome model-level defaults.
 
 ## Available versions
 
