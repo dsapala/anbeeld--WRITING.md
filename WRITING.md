@@ -18,9 +18,6 @@ AI text detectors are probabilistic classifiers, not proof of authorship. Resear
 
 Operationally: do not treat any word list, punctuation habit, or sentence pattern as decisive; do not promise detector safety. Separate proof from perception: a cue can be weak evidence of AI use yet still be a strong social signal if readers now associate it with pasted chatbot output. Style rules can reduce those cues; they cannot certify authorship.
 
-Empirical basis: detector surveys, robustness and bias papers, paraphrase-attack work, and public guidance.
-Social-perception basis: community reporting across places like Reddit, LinkedIn, marketing blogs, and product forums.
-
 ## Precedence
 
 When rules conflict:
