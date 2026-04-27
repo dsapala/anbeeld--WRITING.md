@@ -1,4 +1,4 @@
-# Anbeeld's WRITING.md — LLM Writing Rules
+# Anbeeld's WRITING.md — AI Writing Rules
 
 A prose ruleset that makes LLM-assisted text sharper, not as generic, and less like default model output. It targets the patterns that make generated prose feel recognizable without breaking grammar, faking typos, or gutting useful structure. The result reads better than unguided output and avoids the most common tells.
 
