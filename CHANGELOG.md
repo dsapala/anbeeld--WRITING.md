@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1
+
+- Strengthened WRITING-mini.md for the text produced directly from rules before any required-check audit: reduced overall em dash frequency, expanded pattern list, shifted them from "watch" to "avoid".
+
 ## v1.1.0
 
 - Added WRITING-compact.md: standalone ~1000-word compressed version of the full ruleset. Preserves all behavior-changing rules, named patterns, concrete thresholds, required checks, and the watchlist.
