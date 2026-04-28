@@ -21,9 +21,9 @@ The rules combine writing standards, web readability research, documentation gui
 
 ## How to use it
 
-Give [the ruleset](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, and overly neat conclusions.
+Give [the ruleset](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
 
-One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. More rewrites after that usually circulate around the same model-level limitations rather than improving the text further.
+One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. Repeat one or two more times if the text is on a larger side. Further rewrites after that usually circulate around the same model-level limitations.
 
 This is meant for legitimate uses, like iterating on a human draft or turning loosely organized thinking into something you would actually publish. The output avoids the most common LLM tells and will read better than unguided model text, but it will not pass an experienced eye test or an advanced detector. Prompt-level instructions have a ceiling and can't overcome model-level defaults.
 
