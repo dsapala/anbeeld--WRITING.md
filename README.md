@@ -31,7 +31,7 @@ This is meant for legitimate uses, like iterating on a human draft or turning lo
 
 ### 2. As a skill in an agent harness
 
-Use the packaged skill in [/skills/writing](skills/writing) with tools that support lazy-loaded skills: Claude Code, Codex, OpenCode, and similar harnesses. The skill loads on demand when the agent is doing actual writing, so it costs no context until needed.
+Use the packaged skill in [/skills/writing](skills/writing) with tools that support lazy-loaded skills: Claude Code, Codex, OpenCode, Cursor, and other similar harnesses. The skill loads on demand when the agent is doing actual writing, so it costs no context until needed.
 
 **Installation:** copy the [/skills/writing](skills/writing) directory to your global skills folder:
 
