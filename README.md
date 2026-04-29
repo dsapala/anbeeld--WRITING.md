@@ -23,7 +23,7 @@ The rules combine writing standards, web readability research, documentation gui
 
 ### 1. Manually as direct instructions
 
-Give [the ruleset](WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions (~4500 words) compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
+Give [the ruleset](WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions (~4400 words) compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
 
 One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. Repeat one or two more times if the text is on a larger side. Further rewrites after that usually circulate around the same model-level limitations.
 

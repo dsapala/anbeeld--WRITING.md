@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.1
+
+- Rule 10 false-crispness paragraph trimmed to cross-reference rule 6 (was duplicating definition and guidance).
+
 ## v1.3.0
 
 - Sentence-shape and false-crispness guidance added across rules 6, 10, 11, 14, safety rails, and medium routing: coordination/subordination, cumulative sentences, when to combine adjacent sentences vs. when to split, "do not replace every dash with a period", "do not confuse concision with chopping".

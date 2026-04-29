@@ -142,7 +142,7 @@ Watch for repeated use of the same moves:
 
 Three-item parallel lists still count. Changing `X, Y, Z, and W` to `X, Y, and Z` does not fix the underlying shape if the sentence is still doing list work. The fix is not random variation; it is to break the repeated pattern where it starts to dominate.
 
-One common over-correction is false crispness: short declarative sentences stacked so every clause gets its own landing. If two neighboring sentences express cause, qualification, contrast, continuation, or explanation, test whether `and`, `but`, `because`, `which`, `so`, a colon, or a semicolon carries the relationship better than a period. Keep the split when the pause adds emphasis, contrast, or needed processing time; do not glue sentences together just to avoid short ones.
+One common over-correction is false crispness: splitting every clause into its own sentence to break regularity. For when to combine and when to keep the split, see rule 6.
 
 ### 11. Let the thought develop
 
