@@ -21,21 +21,34 @@ The rules combine writing standards, web readability research, documentation gui
 
 ## How to use it
 
-Give [the ruleset](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
+### 1. Manually as direct instructions
+
+Give [the ruleset](WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions (~3900 words) compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
 
 One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. Repeat one or two more times if the text is on a larger side. Further rewrites after that usually circulate around the same model-level limitations.
 
 This is meant for legitimate uses, like iterating on a human draft or turning loosely organized thinking into something you would actually publish. The output avoids the most common LLM tells and will read better than unguided model text, but it will not pass an experienced eye test or an advanced detector. Prompt-level instructions have a ceiling and can't overcome model-level defaults.
 
-## Available versions
+### 2. As a skill in an agent harness
 
-The repository includes the full ruleset and two compressed forms for different budgets.
+Use the packaged skill in [/skills/writing](skills/writing) with tools that support lazy-loaded skills: Claude Code, Codex, OpenCode, and similar harnesses. The skill loads on demand when the agent is doing actual writing, so it costs no context until needed.
 
-**[WRITING.md](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING.md)** — the full ruleset, ~3900 words. All 14 core rules, detector limits, required checks, long-form diagnostics, examples of useful corrections, optional audit reference, and provenance guidance. Load this when you want the complete instruction set and have the context window for it.
+**Installation:** copy the [/skills/writing](skills/writing) directory to your global skills folder:
 
-**[WRITING-compact.md](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING-compact.md)** — the same rules at ~1000 words. Use as AGENTS.md or CLAUDE.md for writing agents, or as instructions in custom chats like GPTs and Gemini Gems. Cuts detector limits, examples, long-form diagnostics, and provenance; keeps every behavior-changing rule, required check, and the watchlist.
+- **Claude Code:** `~/.claude/skills/`
+- **Codex:** `~/.codex/skills/`
+- **Cursor:** `~/.cursor/skills/`
+- **OpenCode:** `~/.config/opencode/skills/`
 
-**[WRITING-mini.md](https://github.com/Anbeeld/WRITING.md/blob/main/WRITING-mini.md)** — ~155 words, fits on one screen. All ten concepts compressed to bullet-pointed aphorisms. Designed to embed as a persistent section in global AGENTS.md or CLAUDE.md so the rules are always in context without dominating it.
+The skill description is scoped to public-facing prose, like blog posts, articles, documentation, criticism, long-form, emails, marketing, SEO copy, or UI text. It explicitly excludes code comments, commit messages, and private notes.
+
+### 3. Compact as agent/chat instructions
+
+[WRITING-compact.md](WRITING-compact.md) is the same rules at ~1000 words. Use as AGENTS.md or CLAUDE.md for writing agents, or as instructions in custom chats like GPTs and Gemini Gems. Cuts examples, long-form diagnostics, and provenance; keeps every behavior-changing rule, required check, and the watchlist.
+
+### 4. Mini as a section in AGENTS.md
+
+[WRITING-mini.md](WRITING-mini.md) is ~155 words, fits on one screen. All ten concepts compressed to bullet-pointed aphorisms. Designed to embed as a persistent section in global AGENTS.md or CLAUDE.md so the rules are always in context without dominating it.
 
 ## See also
 

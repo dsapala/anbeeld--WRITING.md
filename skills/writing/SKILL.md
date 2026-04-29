@@ -1,3 +1,12 @@
+---
+name: writing
+description: "Drafting and revising prose that readers will see: blog posts, articles, documentation, criticism, long-form, emails, marketing, SEO copy, UI text. Not for code comments, commit messages, or private notes."
+license: MIT
+metadata:
+  author: Anbeeld
+  version: '1.2.0'
+---
+
 # Writing ruleset
 
 ## Purpose
@@ -194,21 +203,7 @@ For pieces up to about 150 words or three short paragraphs, run checks 1-5, 7, a
 
 These are tripwires, not goals. Use them to catch genericity, visible regularity, false specificity, and modular structure, not to manufacture variation for its own sake. These checks are for revision, not for visible self-reporting. Do not output the audit unless asked.
 
-## Optional long-form diagnostics
-
-Use these only when the required checks are not enough for a longer piece.
-- Paragraph spread. Count sentences in each paragraph. If nearly all land at the same count, vary one.
-- Sentence spread. Compare the shortest and longest sentences. If everything sits in the same medium band, vary one.
-- Punctuation audit. If em dashes, colons, or parentheticals keep doing the same job, swap some for commas or full stops.
-- Lead audit. In web, docs, email, or task-oriented text, is the answer or requested action visible early? In analysis or criticism, is the first general claim tied to concrete evidence soon enough?
-- Hidden-list audit. Count sentences whose main work is listing three or more parallel items. If three or more sentences do list work, rewrite at least one around a single consequence, contrast, or example.
-- Causality audit. Mark every sentence claiming that one thing caused, proved, drove, enabled, prevented, or explained another. If the evidence only supports sequence or correlation, weaken the relationship.
-- Motif audit. If the same image, opposition, or repeated wording carries the piece, remove at least one instance unless each recurrence changes the argument.
-- Cadence check. Re-read one paragraph slowly. If it sounds like a press release, investor memo, or encyclopedia entry, flatten it.
-- Catalog audit. If one paragraph names three or more terms, features, or labels from the same milestone, or jumps through multiple milestones in short order, rewrite around one consequence instead.
-- Bucket audit. If you can label each paragraph with a clean category heading and those labels barely overlap, the piece is too modular. Cross-wire at least one paragraph.
-
-These are fallback heuristics, not targets to optimize for.
+For optional long-form diagnostics, see `references/long-form-diagnostics.md`.
 
 ## Examples of useful corrections
 
@@ -224,55 +219,7 @@ These are fallback heuristics, not targets to optimize for.
 - System-tour prose -> cross-wired prose. Avoid: one paragraph for `background`, one for `process`, one for `impact`, then a verdict. Prefer: trace one recurring constraint, show how it appears across the piece, and make the paragraphs depend on each other.
 - Rushed linearity -> developed thought. Avoid: `The plan changed. Results improved. Therefore it worked.` Prefer: `Results improved only after the review queue changed, which is why the earlier numbers were misleading.`
 
-## Optional audit reference
-
-These are not bans. They are quick places to scan when default LLM writing slips into formula.
-
-### Formula phrases and sentence moves to scrutinize
-
-- `It's important to note that`
-- `It's worth noting that`
-- `When it comes to`
-- `In conclusion`
-- `in today's fast-paced world`
-- `ever-evolving landscape`
-- `at the end of the day`
-- `dive deep into`
-- `embark on a journey`
-- `navigate` used as a vague metaphor
-- `It's not X, it's Y`
-- `Not because X, but because Y`
-- `What matters is...`
-- `The real issue is...`
-- `This is not just..., it is...`
-- `is a testament to`
-- `serves as` / `stands as` when `is` or `has` would be clearer
-- `plays a key role` / `plays a pivotal role`
-- `reflects broader`, `symbolizes`, `showcases`, `highlights`, or `underscores` when attached to generic significance rather than evidence
-- vague source laundering: `experts say`, `observers note`, `research suggests`, `critics argue`, `many believe`
-- unsupported causality: `drove`, `proved`, `showed that`, `made clear that`, `tracked with`, `led directly to`
-- `X today is not the X it was at the start`
-- `found its feet` / `found its identity`
-- `proof of concept`
-- paragraph-closing type definitions (`the kind of X where Y`)
-- persuasive three-part cadence or triadic rhythm used by reflex (`clearer, faster, cheaper`)
-- fake-human hedge chains (`I think... maybe... sort of`) when the uncertainty is not real
-- forced register lowering or inserted slang
-- decorative emoji and checkmark bullets in prose contexts
-- generic-to-the-platform replies that reference nothing specific to the actual conversation
-
-### Jargon defaults to scrutinize
-
-Use only when they are plainly the right words, not because the model fell into them:
-`delve into`, `tapestry`, `realm`, `leverage`, `harness`, `foster`, `empower`, `unlock`, `unveil`, `vibrant`, `crucial`, `pivotal`, `compelling`, `robust`, `seamless`, `holistic`, `multifaceted`, `paradigm-shifting`, `underscore`, `testament`, `valuable insights`, `rich`, `profound`, `enhance`, `showcase`, `boast` / `boasts`
-
-The problem is repeated fallback diction, not the existence of any one word.
-
-### Formatting artifacts in plain text to scrutinize
-
-- smart quotes and curly apostrophes
-- single-character ellipses
-- other visible copy-paste formatting artifacts that do not fit the medium
+For formula phrases, jargon defaults, and formatting artifacts to scrutinize, see `references/formula-watchlist.md`.
 
 ## Provenance in high-stakes contexts
 

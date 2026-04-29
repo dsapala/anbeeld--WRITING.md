@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.0
+
+- Repackaged the writing ruleset as a behavioral AI skill for agent harnesses like Claude Code, Codex, OpenCode, Cursor.
+
 ## v1.1.1
 
 - Strengthened WRITING-mini.md for the text produced directly from rules before any required-check audit: reduced overall em dash frequency, expanded pattern list, shifted them from "watch" to "avoid".
