@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.1
+
+- Added compound-modifier hyphenation guidance: attributive/predicative distinction, `-ly` adverb compounds, `ever-` compounds, set phrases.
+- Added `ever-changing`, `ever-evolving`, `ever-growing` to the jargon defaults list.
+
 ## v1.2.0
 
 - Repackaged the writing ruleset as a behavioral AI skill for agent harnesses like Claude Code, Codex, OpenCode, Cursor.

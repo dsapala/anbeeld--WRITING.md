@@ -38,7 +38,7 @@ These are not bans. They are quick places to scan when default LLM writing slips
 ## Jargon defaults to scrutinize
 
 Use only when they are plainly the right words, not because the model fell into them:
-`delve into`, `tapestry`, `realm`, `leverage`, `harness`, `foster`, `empower`, `unlock`, `unveil`, `vibrant`, `crucial`, `pivotal`, `compelling`, `robust`, `seamless`, `holistic`, `multifaceted`, `paradigm-shifting`, `underscore`, `testament`, `valuable insights`, `rich`, `profound`, `enhance`, `showcase`, `boast` / `boasts`
+`delve into`, `tapestry`, `realm`, `leverage`, `harness`, `foster`, `empower`, `unlock`, `unveil`, `vibrant`, `crucial`, `pivotal`, `compelling`, `robust`, `seamless`, `holistic`, `multifaceted`, `paradigm-shifting`, `underscore`, `testament`, `valuable insights`, `rich`, `profound`, `enhance`, `showcase`, `boast` / `boasts`, `ever-changing`, `ever-evolving`, `ever-growing`
 
 The problem is repeated fallback diction, not the existence of any one word.
 
@@ -47,3 +47,17 @@ The problem is repeated fallback diction, not the existence of any one word.
 - smart quotes and curly apostrophes
 - single-character ellipses
 - other visible copy-paste formatting artifacts that do not fit the medium
+
+## Compound-modifier hyphenation to scrutinize
+
+LLMs often flatten compound-modifier hyphenation into a single reflex: if two words act like a modifier, insert a hyphen. Human usage is more positional and more relaxed.
+
+For temporary compounds, hyphenate before the noun: `a well-known author`, `a high-quality service`, `a long-term plan`. After the noun, often after a linking verb, usually open the compound: `The author is well known`, `The service is high quality`, `The plan is long term`.
+
+Watch for:
+- predicative over-hyphenation: `is well-known`, `seems high-quality`, `became long-term`
+- `-ly` adverb compounds: `highly-qualified`, `newly-designed`, `statistically-significant`
+- reflexive `ever-` compounds: `ever-changing`, `ever-evolving`, `ever-growing`
+- set phrases where the hyphen adds nothing: `high school`, `ice cream`, `real estate`
+
+Do not strip all hyphens. Keep them when they prevent ambiguity, when the compound precedes the noun, or when the term is conventionally hyphenated: `state-of-the-art`, `cost-effective`, `user-friendly`. The problem is the reflex, not the mark.

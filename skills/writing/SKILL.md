@@ -4,7 +4,7 @@ description: "Drafting and revising prose that readers will see: blog posts, art
 license: MIT
 metadata:
   author: Anbeeld
-  version: '1.2.0'
+  version: '1.2.1'
 ---
 
 # Writing ruleset
@@ -57,7 +57,7 @@ Do not invent typos. Do not break grammar on purpose. Do not inject slang, profa
 
 Do not make text less usable or less accessible in the name of sounding less AI-written. Removing needed headings, lists, descriptive links, citations, caveats, or next steps is not a style improvement.
 
-The recurring problem is regularity and mismatch, not any one feature. Use em dashes where they belong; do not reach for them as a default connective. If you keep using the same punctuation move in the same role, vary it rather than banning it. In casual internet prose, paragraph-after-paragraph em dashes are now a socially recognized AI cue, so prefer commas, colons, or full stops unless the dash clearly earns its keep.
+The recurring problem is regularity and mismatch, not any one feature. Use em dashes where they belong; do not reach for them as a default connective. If you keep using the same punctuation move in the same role, vary it rather than banning it. In casual internet prose, paragraph-after-paragraph em dashes are now a socially recognized AI cue, so prefer commas, colons, or full stops unless the dash clearly earns its keep. For temporary compound modifiers, hyphenate before the noun and usually open after it; do not let the model turn every compound into a hyphenated unit.
 
 ## Core rules
 

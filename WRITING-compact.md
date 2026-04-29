@@ -27,7 +27,7 @@ Precedence: truth/safety/accessibility > user instructions > genre norms > core 
 
 ## Safety rails
 
-Em dashes, semicolons, `however`, competent punctuation, and the right word are not AI tells. Do not invent typos, break grammar, inject fake uncertainty or staged messiness, or program sentence-length wobble. Same punctuation move in the same role every paragraph is a regularity — vary, don't ban. In casual prose, repeated em dashes are a social AI cue; use where they belong, not as default. Do not remove needed headings, lists, citations, or next steps to sound less AI-written.
+Em dashes, semicolons, `however`, competent punctuation, and the right word are not AI tells. Do not invent typos, break grammar, inject fake uncertainty or staged messiness, or program sentence-length wobble. Same punctuation move in the same role every paragraph is a regularity — vary, don't ban. In casual prose, repeated em dashes are a social AI cue; use where they belong, not as default. For temporary compound modifiers, hyphenate before the noun and usually open after; reflexive hyphenation everywhere is the problem. Do not remove needed headings, lists, citations, or next steps to sound less AI-written.
 
 ## Core rules
 
@@ -89,4 +89,4 @@ Tripwires, not goals. Do not output the audit unless asked.
 
 ## Watchlist
 
-Scrutinize when defaulting to: `delve`, `tapestry`, `leverage`, `realm`, `robust`, `seamless`, `holistic`, `underscore`; `it's important to note`, `when it comes to`, `in conclusion`, `the kind of X where Y`; vague authority (`experts say` unnamed); unsupported causality (`X drove Y` without evidence); smart quotes in plain text; decorative emoji in prose. Repeated fallback is the problem, not any single item.
+Scrutinize when defaulting to: `delve`, `tapestry`, `leverage`, `realm`, `robust`, `seamless`, `holistic`, `underscore`, `ever-changing`, `ever-evolving`, `ever-growing`; `it's important to note`, `when it comes to`, `in conclusion`, `the kind of X where Y`; vague authority (`experts say` unnamed); unsupported causality (`X drove Y` without evidence); compound-modifier over-hyphenation; smart quotes in plain text; decorative emoji in prose. Repeated fallback is the problem, not any single item.
