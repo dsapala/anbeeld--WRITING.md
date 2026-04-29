@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0
+
+- Sentence-shape and false-crispness guidance added across rules 6, 10, 11, 14, safety rails, and medium routing: coordination/subordination, cumulative sentences, when to combine adjacent sentences vs. when to split, "do not replace every dash with a period", "do not confuse concision with chopping".
+- Check 5 renamed to "Regularity and sentence-continuity tripwire"; added false-crispness scanning.
+- Three new correction pairs: choppy→connected, false crispness→carried relationship, period-as-dash→clearer clause relation.
+- Added "one-thought-per-sentence strings" to formula watchlist; added sentence spread and sentence architecture audit to long-form diagnostics.
+- Moved examples, provenance, and required checks from inline SKILL.md sections to `references/` files with routing descriptions.
+
 ## v1.2.2
 
 - Renamed WRITING-mini.md section header from "Writing" to "Style".

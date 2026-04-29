@@ -19,7 +19,7 @@ Precedence: truth/safety/accessibility > user instructions > genre norms > core 
 
 ## Medium routing
 
-- Chat, comments, DMs, forums: running prose by default. Lists only when naturally list-like or requested. No decorative formatting or canned tone. In plain-text: straight quotes, prefer commas/colons/full stops over em dashes. If text arrived by copy-paste, normalize it before sending.
+- Chat, comments, DMs, forums: running prose by default. Lists only when naturally list-like or requested. No decorative formatting or canned tone. In plain-text: straight quotes; prefer commas, colons, connectors, or full stops over em dashes, but do not replace every dash with a period. If the thought continues, keep the sentence moving. If text arrived by copy-paste, normalize it before sending.
 - Email: prose first; lists for discrete items.
 - Documents, specs, tech writing: structure expected.
 - Web, help, UI text: answer early. Preserve scannability and accessibility.
@@ -27,7 +27,7 @@ Precedence: truth/safety/accessibility > user instructions > genre norms > core 
 
 ## Safety rails
 
-Em dashes, semicolons, `however`, competent punctuation, and the right word are not AI tells. Do not invent typos, break grammar, inject fake uncertainty or staged messiness, or program sentence-length wobble. Same punctuation move in the same role every paragraph is a regularity — vary, don't ban. In casual prose, repeated em dashes are a social AI cue; use where they belong, not as default. For temporary compound modifiers, hyphenate before the noun and usually open after; reflexive hyphenation everywhere is the problem. Do not remove needed headings, lists, citations, or next steps to sound less AI-written.
+Em dashes, semicolons, `however`, competent punctuation, and the right word are not AI tells. Do not invent typos, break grammar, inject fake uncertainty or staged messiness, or program sentence-length wobble; this is not a preference for short sentences. Same punctuation move in the same role every paragraph is a regularity — vary, don't ban. In casual prose, repeated em dashes are a social AI cue; use where they belong, not as default, and do not make periods the automatic replacement. For temporary compound modifiers, hyphenate before the noun and usually open after; reflexive hyphenation everywhere is the problem. Do not remove needed headings, lists, citations, or next steps to sound less AI-written.
 
 ## Core rules
 
@@ -47,9 +47,9 @@ What does not count: `many`, `various`, `meaningful changes`, `broad implication
 
 Earn specificity. Do not invent milestones, synthetic quotes, or suspiciously exact claims. Do not narrate hidden mechanisms as fact. Do not launder through vague authority without naming the source. Cannot verify? Attribute, soften, or cut. Where causation is unconfirmed, use coincided with or was followed by instead of caused or drove.
 
-### 4. Plain words, verbs, reference
+### 4. Plain words, verbs, reference, sentence shape
 
-Do not chase synonyms for `problem`, `change`, `system`, `work`, `people`. Prefer `we changed it` to `the implementation of the change`; `latency dropped` to `a reduction in latency was observed`. Prefer actions to people over abstractions to systems. Cohere through pronouns, not `Furthermore`, `Moreover`, `Additionally`, `Importantly` as defaults.
+Do not chase synonyms for `problem`, `change`, `system`, `work`, `people`. Prefer `we changed it` to `the implementation of the change`; `latency dropped` to `a reduction in latency was observed`. Prefer actions to people over abstractions to systems. Cohere through pronouns and sentence shape, not `Furthermore`, `Moreover`, `Additionally`, `Importantly` as defaults. Let tightly related thoughts share a sentence when the relationship is clear: coordination for equal weight, subordination for cause/contrast/qualification, colons or semicolons for explanation or turn. Keep short sentences when the pause earns it; do not make every adjacent thought its own sentence for crispness.
 
 ### 5. Do not perform
 
@@ -65,15 +65,15 @@ Do not lead with abstract diagnosis. Not a ban on leading with conclusions — b
 
 ### 8. Watch regularity
 
-The most visible feature of LLM writing is often its own regularity. Watch for: parallel enumeration and three-part cadence; sentences doing hidden list work even without bullets; concession-plus-positive rhythm (`not X, but Y`); paragraph-closing type definitions (`the kind of X where Y`); identical paragraph arcs; same punctuation move in every paragraph; thesis-like openings; stacked mini-sentences for impact. Three-item lists still count — the enumerating instinct is the problem, not the item count. Fix by breaking the pattern where it dominates, not by random variation.
+The most visible feature of LLM writing is often its own regularity. Watch for: parallel enumeration and three-part cadence; sentences doing hidden list work even without bullets; concession-plus-positive rhythm (`not X, but Y`); paragraph-closing type definitions (`the kind of X where Y`); identical paragraph arcs; same punctuation move in every paragraph; thesis-like openings; stacked mini-sentences or false crispness where each adjacent thought gets its own landing. Three-item lists still count — the enumerating instinct is the problem, not the item count. Fix by breaking the pattern where it dominates, not by random variation.
 
 ### 9. Develop thought; choose structure
 
-Longer pieces should not feel pre-solved. Include a concrete example, noticed detail, or brief doubling-back. For retrospectives, criticism, feature writing: avoid chronological march, topic buckets, catalog prose. Pick a through-line. Cross-wire paragraphs so they depend on each other. If each paragraph reduces to a single label (`background`, `mechanism`, `impact`, `verdict`), the piece is system-tour prose — restructure. Alternatives: thematic, reverse-chronological, perspective-led, counterfactual, opinion-first, single-example-led.
+Longer pieces should not feel pre-solved. Include a concrete example, noticed detail, cumulative sentence, or brief doubling-back. For retrospectives, criticism, feature writing: avoid chronological march, topic buckets, catalog prose. Pick a through-line. Cross-wire paragraphs so they depend on each other. If each paragraph reduces to a single label (`background`, `mechanism`, `impact`, `verdict`), the piece is system-tour prose — restructure. Alternatives: thematic, reverse-chronological, perspective-led, counterfactual, opinion-first, single-example-led.
 
 ### 10. Revise by cutting
 
-Re-read as a first-time reader. Cut auditioning, announcements, restating paragraphs, the most generic clause. Most edits should shorten.
+Re-read as a first-time reader. Cut auditioning, announcements, restating paragraphs, the most generic clause. Most edits should shorten, but do not confuse concision with chopping: combine tightly related sentences when that better carries the relationship.
 
 ## Required checks
 
@@ -81,7 +81,7 @@ Short pieces (up to ~150 words): run 1–3 and 5. Longer: run all.
 
 1. Register fit. Format, punctuation, structure match medium and request? Accessibility preserved where needed?
 2. Concrete anchor. One per substantial paragraph; if none, add or cut. If citing a source, confirm it supports the exact claim.
-3. Regularity tripwire. Name the most repeated pattern. Appears 3+ times or dominates two consecutive paragraphs? Rewrite one.
+3. Regularity and continuity tripwire. Name the most repeated pattern. Appears 3+ times or dominates two consecutive paragraphs? Rewrite one. If neighboring short sentences split a tight relationship, combine one pair; keep the period when it adds emphasis or clarity.
 4. Stance and shape. Genre expects a writer? State the view in one sentence; if you cannot, add stance. Longer piece? State organizing principle in five words; if it is just the genre default, restructure.
 5. Over-correction. Added fake-human moves to break a pattern?
 

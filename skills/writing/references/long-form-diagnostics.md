@@ -3,6 +3,7 @@
 Use these only when the required checks are not enough for a longer piece.
 - Paragraph spread. Count sentences in each paragraph. If nearly all land at the same count, vary one.
 - Sentence spread. Compare the shortest and longest sentences. If everything sits in the same medium band, vary one.
+- Sentence architecture audit. Look at sentence types, not only length. If most sentences are simple declaratives, combine one pair of close thoughts with coordination or subordination. If every sentence starts fresh instead of carrying reference forward, revise one sentence so it begins from the previous thought and ends with the new one.
 - Punctuation audit. If em dashes, colons, or parentheticals keep doing the same job, swap some for commas or full stops.
 - Lead audit. In web, docs, email, or task-oriented text, is the answer or requested action visible early? In analysis or criticism, is the first general claim tied to concrete evidence soon enough?
 - Hidden-list audit. Count sentences whose main work is listing three or more parallel items. If three or more sentences do list work, rewrite at least one around a single consequence, contrast, or example.

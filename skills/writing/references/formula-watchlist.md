@@ -30,6 +30,7 @@ These are not bans. They are quick places to scan when default LLM writing slips
 - `proof of concept`
 - paragraph-closing type definitions (`the kind of X where Y`)
 - persuasive three-part cadence or triadic rhythm used by reflex (`clearer, faster, cheaper`)
+- one-thought-per-sentence strings where adjacent claims should be coordinated or subordinated
 - fake-human hedge chains (`I think... maybe... sort of`) when the uncertainty is not real
 - forced register lowering or inserted slang
 - decorative emoji and checkmark bullets in prose contexts
