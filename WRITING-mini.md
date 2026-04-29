@@ -1,4 +1,4 @@
-## Writing
+## Style
 
 Write for context. When rules conflict: truth > user > genre > rules.
 

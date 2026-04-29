@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.2
+
+- Renamed WRITING-mini.md section header from "Writing" to "Style".
+
 ## v1.2.1
 
 - Added compound-modifier hyphenation guidance: attributive/predicative distinction, `-ly` adverb compounds, `ever-` compounds, set phrases.
